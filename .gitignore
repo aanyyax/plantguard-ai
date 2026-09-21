@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# Model outputs / temporary files
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+# Large ML models
+ml/models/*.pth
+
+# Test image
+data/external_test/test_leaf.jpg
+
+# Background image
+frontend/public/plantguard-bg.png
