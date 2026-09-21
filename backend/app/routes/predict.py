@@ -3,7 +3,7 @@ from PIL import Image
 
 import io
 
-from backend.app.services.model_service import predict_image
+from app.services.model_service import predict_image
 
 
 router = APIRouter()

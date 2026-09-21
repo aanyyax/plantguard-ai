@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.routes.predict import router as predict_router
-
+from app.routes.predict import router as predict_router
 app = FastAPI(
     title="PlantGuard AI API",
     description="Plant disease detection API",
