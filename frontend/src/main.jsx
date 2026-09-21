@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
 import diseaseData from "./diseaseData";
+import backgroundImage from "./plantguard-bg.png";
 
 function App() {
     const [image, setImage] = useState(null);
@@ -124,6 +125,7 @@ function App() {
 
     return (
         <div className="app">
+             style={{ backgroundImage: `url(${backgroundImage})` }}
 
             {/* =========================
                 BACKGROUND
