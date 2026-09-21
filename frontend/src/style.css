@@ -95,8 +95,8 @@ html.dark-mode body {
             rgba(1, 10, 5, 0.94),
             rgba(3, 30, 14, 0.91),
             rgba(1, 17, 8, 0.95)
-        ),
-        url("/plantguard-bg.png");
+        );
+        
 
     background-size: cover;
     background-position: center top;
@@ -114,7 +114,7 @@ html.dark-mode body {
     min-height: 100vh;
     width: 100%;
 
-    background: transparent !important;
+    background: transparent;
 
     isolation: isolate;
 }
