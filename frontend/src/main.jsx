@@ -80,7 +80,7 @@ function App() {
 
         try {
             const response = await fetch(
-                "http://127.0.0.1:8000/predict",
+                "https://plantguard-ai-nlkj.onrender.com/predict", 
                 {
                     method: "POST",
                     body: formData
